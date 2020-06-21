@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
 
-    <title>About</title>
+    <title>Contacto</title>
   </head>
   <body>
     <header>
@@ -21,9 +21,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item "><a class="nav-link" href="">Sobre Nosotros</a></li>
-            <li class="nav-item "><a class="nav-link" href="contacto.html">Contacto</a></li>
-            <li class="nav-item "><a class="nav-link" href="#">Reservas</a></li>      
+            <li class="nav-item "><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+            <li class="nav-item "><a class="nav-link" href="">Contacto</a></li>
+            <li class="nav-item "><a class="nav-link" href="#">Reservas</a></li>    
           </ul>
         </div>
       </nav>
@@ -40,18 +40,47 @@
         </ol>
       </nav>
       <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad assumenda, cumque non,
-        vitae aspernatur accusamus nesciunt, obcaecati culpa ipsum harum veritatis nam modi 
-        laudantium explicabo praesentium amet minus officia. Incidunt! Lorem ipsum dolor sit ame
-        consectetur adipisicing elit. Itaque fuga sed, at adipisci est veritatis cum, totam ad asperi
-        ores ab quisquam! Reprehenderit qui illum veniam obcaecati, excepturi dolorem deserunt atque. Lorem 
-        ipsum dolor sit amet, colorem lorem nsectetur adipisicing elit. Repellendus, nostrum nulla ea rem consequa
-        tur dolore provident autem tempore optio id fuga laborum! Magnam, quis at. Molestias fugit labore qui ipsum!
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, ut sed. Pariatur et inventore incidunt voluptatibus. Molestiae dolore totam deserunt et in eum, id saepe ipsa eaque, rerum, repellendus nulla.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero sunt vitae ea incidunt tempora recusandae, exercitationem porro, repellat laborum nostrum! Tenetur, similique! Veritatis eos dolor quod voluptatem beatae placeat!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ullam libero, soluta odio iure, facilis quas fuga quis quaerat quia impedit perferendis ut necessitatibus illo in omnis. Ipsum, repudiandae veniam?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus in blanditiis tenetur molestias, quos repudiandae esse magni deleniti veritatis ad ea non nisi? Temporibus incidunt itaque et laboriosam ea asperiores?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores velit iusto pariatur esse dolorem vel labore cupiditate fuga? Voluptates ipsa nostrum laudantium suscipit ratione culpa beatae, ex quibusdam pariatur excepturi.
+        <form>
+          <div class="form-row">         
+            <div class="form-group col-sm-6">
+              <label for="name">Nombre</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group col-sm-6">
+              <label for="lastname">Apellido</label>
+              <input type="text" class="form-control" id="lastname">
+            </div>
+            <div class="form-group col-sm-12">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-sm-9">
+              <label for="address">Dirección</label>
+              <input type="text" class="form-control" id="address">
+            </div>
+            <div class="form-group col-sm-3">
+              <label for="pais">Ciudad</label>
+              <select id="pais" class="form-control">
+                <option selected>Bogota</option>
+                <option>Pasto</option>
+                <option>Armenia</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="comentario">Comentario</label>
+            <textarea id="comentario" class="form-control" rows="10"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck"></input>
+              <label class="form-check-label" for="gridCheck">Quiero que me contacten</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
     </main>
     <footer class="container-fluid">
@@ -60,7 +89,6 @@
             <a href="#">Facebook</a> <span class="oi oi-bell"></span> |
             <a href="#">Instagram</a> <span class="oi oi-bell"></span> |
             <a href="#">Google</a> <span class="oi oi-bell"></span>
-          
         </div>
         <div class="footer-item col-xs-12 col-sm-4">
           <address>

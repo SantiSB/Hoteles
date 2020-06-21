@@ -1,11 +1,18 @@
-header{
+
+.jumbotron{
+	grid-area: jumbotron;
 	background: #cccccc;
 	color: darkblue;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 55px;
+	
 }
 
 .info-item{
 	margin: 0.5rem;
+	flex: 1 5rem;
 }
 
 .hotel-card{
@@ -19,7 +26,15 @@ footer{
 }
 
 .footer-item{
-	padding: 1rem;
-	flex: 1;
+	padding: 0rem 1rem;
 	text-align: center;
+}
+
+.main-footer{
+	display: flex;
+	align-items: center;
+	padding: 1rem 0rem;
+}
+
+address{
 }

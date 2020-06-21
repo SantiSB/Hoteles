@@ -36,5 +36,10 @@ footer{
 	padding: 1rem 0rem;
 }
 
-address{
+main{
+	margin: 1rem 0rem;
+}
+
+footer{
+	height: 100px;
 }

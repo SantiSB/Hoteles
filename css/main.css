@@ -43,3 +43,7 @@ main{
 footer{
 	height: 100px;
 }
+
+.btn-reserva button{
+	width: 100%;
+}

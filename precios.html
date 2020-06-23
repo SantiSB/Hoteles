@@ -41,49 +41,71 @@
         </ol>
       </nav>
       <div>
-        <div class="table-responsive">
-          <table class="table table-striped">
-            <thead class="thead-dark">
-              <th>Calidad</th>
-              <th>Bogota</th>
-              <th>Pasto</th>
-              <th>Armenia</th>
-            </thead>
-            <tbody>
-              <tr>
-                <td><span class="oi oi-star"></span></td>
-                <td>100</td>
-                <td>200</td>
-                <td>300</td>
-              </tr>
-              <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>100</td>
-                <td>200</td>
-                <td>300</td>
-              </tr>
-              <tr>
-                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-                <td>100</td>
-                <td>200</td>
-                <td>300</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <div class="card">
-            <div class="card-header">
-              Tarjetas Aceptadas
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Compara</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Tarjetas</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Comentarios</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead class="thead-dark">
+                  <th>Calidad</th>
+                  <th>Bogota</th>
+                  <th>Pasto</th>
+                  <th>Armenia</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="oi oi-star"></span></td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                  </tr>
+                  <tr>
+                    <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                  </tr>
+                  <tr>
+                    <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                    <td>100</td>
+                    <td>200</td>
+                    <td>300</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Tarjeta Basica</li>
-              <li class="list-group-item">Tarjeta VIP</li>
-              <li class="list-group-item">Tarjeta Black</li>
-            </ul>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                  Tarjetas Aceptadas
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Tarjeta Basica</li>
+                  <li class="list-group-item">Tarjeta VIP</li>
+                  <li class="list-group-item">Tarjeta Black</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <h4>Comentarios</h4>
           </div>
         </div>
+        
+
+        
       </div>
     </main>
     <footer class="container-fluid">

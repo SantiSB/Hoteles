@@ -86,18 +86,51 @@
             </div>
           </div>
           <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <div class="d-flex justify-content-center">
+            <div class="accordion" id="accordionExample">
               <div class="card">
-                <div class="card-header">
-                  Tarjetas Aceptadas
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Tarjeta Basica
+                    </button>
+                  </h2>
                 </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Tarjeta Basica</li>
-                  <li class="list-group-item">Tarjeta VIP</li>
-                  <li class="list-group-item">Tarjeta Black</li>
-                </ul>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia debitis dicta aliquid aperiam sequi? Beatae, accusantium adipisci dolore doloribus rerum et libero deserunt dignissimos modi cum magnam ut ad fugit.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Tarjeta VIP
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi in odit quam eos est cum, nulla repellat ratione vel harum perferendis velit repellendus itaque repudiandae beatae obcaecati, deserunt natus. Cupiditate.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Tarjeta Black
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere inventore, suscipit dolor quia, consequuntur debitis assumenda adipisci consequatur modi sapiente iure! Fugiat perspiciatis unde illo, doloremque libero inventore quisquam beatae.
+                  </div>
+                </div>
               </div>
             </div>
+            
           </div>
           <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
             <h4>Comentarios</h4>
